@@ -1,11 +1,13 @@
-### Major Info ###
+## Major Info ##
 
 This is a Backup Copy of original Version as contribute to Andras Retzler! 
 
-All "Hams" and DX Users very thankful to his development work! Please SUPPORT his Work by a small donation on "http://sdr.hu" 
+All "Hams" and DX Users very thankful to his development work! 
+Please SUPPORT his Work by a small donation on "http://sdr.hu" 
+
 1000 Thanks Andras!
 
-### Licensing  ###
+## Licensing  ##
 
 OpenWebRX is available under Affero GPL v3 license (<a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">summary</a>).
 

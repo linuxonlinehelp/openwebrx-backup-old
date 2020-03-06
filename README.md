@@ -18,9 +18,9 @@ Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
 OS tested: Ubuntu, Raspian, Debian
 read my Wiki: https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
-######################################### COPY original github Page ###############################
+## COPY original github Page ##
 
-# OpenWebRX
+# OpenWebRX - Copy of Info Page of Andras #
 
 OpenWebRX is a multi-user SDR receiver software with a web interface.
 

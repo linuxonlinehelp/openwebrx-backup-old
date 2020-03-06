@@ -1,3 +1,23 @@
+Major Info: This is a Backup Copy of original Version as contribiute to Andras Retzler! All "Hams" and DX Users very thankful to his development work! Please SUPPORT his Work by a small donation on "http://sdr.hu" 
+1000 Thanks Andras!
+
+## Licensing  ###
+
+OpenWebRX is available under Affero GPL v3 license (<a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">summary</a>).
+
+OpenWebRX is also available under a commercial license on request. Please contact me at the address *&lt;randras@sdr.hu&gt;* for licensing options. 
+
+## My Tested Devices ##
+
+Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartphones:
+Laptops tested:T20,T30,T40,R40,A30P, (Pentium P3, P4, Centrino)
+Mobile Devices: Huawei Y6 2016, Firetabletts 7+10 inch. Android 5.1, Iphone SE
+Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
+OS tested: Ubuntu, Raspian, Debian
+read my Wiki: https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
+
+######################################### COPY original github Page ###############################
+
 # OpenWebRX
 
 OpenWebRX is a multi-user SDR receiver software with a web interface.

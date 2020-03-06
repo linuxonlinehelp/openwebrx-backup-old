@@ -18,6 +18,10 @@ Laptops tested:T20,T30,T40,R40,A30P, (Pentium P3, P4, Centrino)
 Mobile Devices: Huawei Y6 2016, Firetabletts 7+10 inch. Android 5.1, Iphone SE
 Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
 OS tested: Ubuntu, Raspian, Debian
+
+## My Workarounds ##
+
+Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartphones
 read my Wiki: https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
 <hr/>

@@ -117,8 +117,8 @@ Please report me problems / bugs for free!!
 
 ### Supported Hardware QO100 Oscar 100 Satellite ###
 
-LNB Modified https://remoteqth.com/lnb.php (thanks to Jan)
-Radio Receiver RTL-Dongle: RTL-SDR-V3 https://www.rtl-sdr.com/ 
+- LNB Modified https://remoteqth.com/lnb.php (thanks to Jan)
+- Radio Receiver RTL-Dongle: RTL-SDR-V3 https://www.rtl-sdr.com/ 
 
 
 ## OpenWebRX - Copy of Info Page of Andras ##

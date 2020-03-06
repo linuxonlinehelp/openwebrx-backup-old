@@ -26,7 +26,9 @@ Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartph
 
 ### My Workarounds ###
 
-Some Workarounds i did to reduce CPU IO on 
+Some Workarounds i did to reduce CPU IO (100% to 30% ) and reduce Traffic !! 
+
+on 
 - old PCs
 - Laptops
 - Tablets 

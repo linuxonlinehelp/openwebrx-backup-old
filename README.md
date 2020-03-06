@@ -19,8 +19,8 @@ OpenWebRX is also available under a commercial license on request.
 ### My Tested Devices ###
 
 Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartphones:
-- Laptops tested:T20,T30,T40,R40,A30P, (Pentium P3, P4, Centrino)
-- Mobile Devices: Huawei Y6 2016, Firetabletts 7+10 inch. Android 5.1, Iphone SE
+- Laptops tested: IBM Thinkpd T20,T30,T40,R40,A30P, (Pentium P3, P4, Centrino)
+- Mobile Devices: Huawei Y6 2016, Fire Tabletts 7+10 inch. Android 5.1, Iphone SE, Fire TV Stick 1+2 512MB RAM,
 - Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
 - OS tested: Ubuntu, Raspian, Debian
 

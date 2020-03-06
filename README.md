@@ -2,7 +2,7 @@
 
 This is a Backup Copy of original Version as contribute to Andras Retzler! 
 
-All "Hams" and DX Users very thankful to his development work! 
+All "Hams" and DX Users are very thankful to his hard development work! 
 
 Please SUPPORT his Work by a small donation on "http://sdr.hu" 
 
@@ -31,7 +31,6 @@ http://www.websdr-eiterfeld.de
 Location: Center Germany Osthessen Eiterfeld near DB0WAS Wasserkuppe
 
 Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satellite Groundstation
-
 
 <hr/>
 

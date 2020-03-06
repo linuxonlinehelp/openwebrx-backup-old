@@ -41,6 +41,14 @@ https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx
 
 <hr/>
 
+## Public 4 Channel openwebrx Rig ##
+
+http://www.websdr-eiterfeld.de 
+
+Location: Center Germany Osthessen Eiterfeld near DB0WAS Wasserkuppe
+
+Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satellite Groundstation
+
 ## OpenWebRX - Copy of Info Page of Andras ##
 
 OpenWebRX is a multi-user SDR receiver software with a web interface.

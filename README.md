@@ -121,7 +121,9 @@ Please report me problems / bugs for free!!
 - Radio Receiver RTL-Dongle: RTL-SDR-V3 https://www.rtl-sdr.com/ 
 
 
-## OpenWebRX - Copy of Info Page of Andras ##
+<hr/>
+
+### OpenWebRX - Copy of Info Page of Andras ###
 
 OpenWebRX is a multi-user SDR receiver software with a web interface.
 

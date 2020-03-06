@@ -20,7 +20,7 @@ Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
 OS tested: Ubuntu, Raspian, Debian
 read my Wiki: https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
-## COPY original github Page ##
+<hr/>
 
 # OpenWebRX - Copy of Info Page of Andras #
 

@@ -39,15 +39,18 @@ cause most people use older Hardware to save Money! (Reuse)
 read my Wiki:
 https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
-<hr/>
 
-## Public 4 Channel openwebrx Rig ##
+## My Public 4 Channel Test Setup "openwebrx Rig" ##
 
 http://www.websdr-eiterfeld.de 
 
 Location: Center Germany Osthessen Eiterfeld near DB0WAS Wasserkuppe
 
 Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satellite Groundstation
+
+
+<hr/>
+
 
 ## OpenWebRX - Copy of Info Page of Andras ##
 

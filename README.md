@@ -18,7 +18,7 @@ But:
 - you can install it inside a virtual server (qemu) to run it inside secure container!
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
 
-### http://hu.sdr - Licensing  ###
+### Software Licensing  ###
 
 OpenWebRX is available under Affero GPL v3 license 
 (<a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">summary</a>).

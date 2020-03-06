@@ -40,7 +40,7 @@ read my Wiki:
 https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
 
-## My Public 4 Channel Test Setup "openwebrx Rig" ##
+### My Public 4 Channel Test Setup "openwebrx Rig" ###
 
 http://www.websdr-eiterfeld.de 
 

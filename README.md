@@ -43,6 +43,7 @@ on
 - Laptops
 - Tablets 
 - Smartphones
+- SmartTV with Amazon Firestick 1+2 + Firefox Tablet Version!
 
 cause most people use older Hardware to save Money! (Reuse)
 
@@ -113,6 +114,11 @@ If your want REDUCE the CPU IO LOAD for older Laptops or PCs edit the index.wrx:
 [index-wrx-reduced-cpu-load](https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/blob/master/index-wrx-reduced-cpu-load.wrx)
 
 Please report me problems / bugs for free!!
+
+### Supported Hardware QO100 Oscar 100 Satellite ###
+
+LNB Modified https://remoteqth.com/lnb.php (thanks to Jan)
+Radio Receiver RTL-Dongle: RTL-SDR-V3 https://www.rtl-sdr.com/ 
 
 
 ## OpenWebRX - Copy of Info Page of Andras ##

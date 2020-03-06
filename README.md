@@ -8,6 +8,16 @@ Please SUPPORT his Work by a small donation on "http://sdr.hu"
 
 1000 Thanks Andras!
 
+### Remark Debian + Python 2.7 ###
+
+The Python 2.7 will be not supported after 12/2019 
+
+But:
+- you can go use it on LOCALNET
+- use it as subdir protected by BASIC AUTH of Apache
+- you can install it inside a virtual server (qemu) to run it inside secure container!
+- qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
+
 ### http://hu.sdr - Licensing  ###
 
 OpenWebRX is available under Affero GPL v3 license 

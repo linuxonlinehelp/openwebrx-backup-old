@@ -51,6 +51,67 @@ Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satelli
 
 <hr/>
 
+### My Workarounds - My Changes ###
+
+Waterfall on SmartTV not displayed, NO Mouse Frequency Control on Openwebrx:
+
+Android TV, FireSticks, ...
+
+Workaround (no Root required):
+
+- install Firefox of Tablet Version by Sideload (.apk)
+- IF on a Firestick or Android TV Box there is no Mouse with a Tablet Browser App!! 
+- Buy a Bluetooth Keyboard, Android will now show Mouse Cursor on TV instead of the TV-Remote !
+..thats it.. Tablet Browsers like Firefox show Waterfall on openwebrx!
+
+#######################
+
+Set Squelch on Start by URL:
+
+http://websdr-ip.local/?#sql=40
+
+#######################
+
+OpenwebRX hang up the Webinterface on Start 20-30 Seconds like a Loop!! then running normal !! Pause on Switch from LSB MODE to USB MODE? 
+
+Then install manual by dpkg -i fftw*.deb ALL fftw3 (fftw3-devel) Packages of 3.3.5 !! as DOWNGRADE on Version 3.3.8 DEFAULT ENABLED CPU-Benchmark-TEST hangs up to 60 seconds on ALL ARM CPU DEVICES (affected RASPIAN Buster, ARMBIAN Buster,Ubuntu 18.XX on Orangepi-zero, Orangepi-H3, Odroid XU,N2,C2 also!!)
+
+Download: https://packages.debian.org/search?keywords=fftw3
+<pre>
+ii  libfftw3-bin                    3.3.5-3                      armhf        Library for computing Fast Fourier Transforms - Tools
+ii  libfftw3-dev:armhf              3.3.5-3                      armhf        Library for computing Fast Fourier Transforms - development
+ii  libfftw3-double3:armhf          3.3.5-3                      armhf        Library for computing Fast Fourier Transforms - Double precision
+ii  libfftw3-single3:armhf          3.3.5-3                      armhf        Library for computing Fast Fourier Transforms - Single precision
+</pre>
+
+I the Bug is now fixed you can set the fftw3 Packages to hold (prevent upgrade)
+
+sudo aptitude hold libfftw3-*
+
+#######################
+
+OpebwebRX reduce CPU Load on small ARM Boards like orangepi-zero? and get a clean smooth waterfall..
+
+set at config_webrx.py:
+<pre>
+ ==== DSP/RX settings ====
+fft_fps=2
+fft_size=4096 #Should be power of 2
+fft_voverlap_factor=0.01  #  0.3 default
+
+</pre>
+
+Update: 2020-02-30
+
+==== REDUCED CPU LOAD INDEX.WRX ====
+
+If your want REDUCE the CPU IO LOAD for older Laptops or PCs edit the index.wrx and remove the LOG-Panel, Status Panel and the S-Meter-Bar use this custumozed index.wrx (saves 60% CPU Load on older PCs:
+
+[index-wrx-reduced-cpu-load](https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/blob/master/index-wrx-reduced-cpu-load.wrx)
+
+Please report me bugs!!
+
+
 
 ## OpenWebRX - Copy of Info Page of Andras ##
 

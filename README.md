@@ -1,6 +1,8 @@
 ### Major Info ###
 
-This is a Backup Copy of original Version as contribiute to Andras Retzler! All "Hams" and DX Users very thankful to his development work! Please SUPPORT his Work by a small donation on "http://sdr.hu" 
+This is a Backup Copy of original Version as contribute to Andras Retzler! 
+
+All "Hams" and DX Users very thankful to his development work! Please SUPPORT his Work by a small donation on "http://sdr.hu" 
 1000 Thanks Andras!
 
 ### Licensing  ###

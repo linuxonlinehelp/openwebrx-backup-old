@@ -24,7 +24,8 @@ OS tested: Ubuntu, Raspian, Debian
 ## My Workarounds ##
 
 Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartphones
-read my Wiki: https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
+read my Wiki:
+https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
 
 <hr/>
 

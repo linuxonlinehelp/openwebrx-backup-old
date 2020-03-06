@@ -24,22 +24,6 @@ Some Workarounds i did to reduce CPU IO on old PCs / Laptops / Tablets / Smartph
 - Server tested: Raspi 2,3,4 Odroid N2 4G, Orange PI Zero, Orange PI M2,
 - OS tested: Ubuntu, Raspian, Debian
 
-### My Workarounds ###
-
-Some Workarounds i did to reduce CPU IO (100% to 30% ) and reduce Traffic !! 
-
-on 
-- old PCs
-- Laptops
-- Tablets 
-- Smartphones
-
-cause most people use older Hardware to save Money! (Reuse)
-
-read my Wiki:
-https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/wiki/Openwebrx-Help-Workarounds
-
-
 ### My Public 4 Channel Test Setup "openwebrx Rig" ###
 
 http://www.websdr-eiterfeld.de 
@@ -53,7 +37,20 @@ Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satelli
 
 ### My Workarounds - My Changes ###
 
-Waterfall on SmartTV not displayed, NO Mouse Frequency Control on Openwebrx:
+Some Workarounds i did to reduce CPU IO (100% to 30% ) and reduce Traffic !! 
+
+on 
+- old PCs
+- Laptops
+- Tablets 
+- Smartphones
+
+cause most people use older Hardware to save Money! (Reuse)
+
+
+### Waterfall on SmartTV not displayed ###
+
+(NO Mouse Frequency Control on Openwebrx)
 
 Android TV, FireSticks, ...
 
@@ -64,15 +61,17 @@ Workaround (no Root required):
 - Buy a Bluetooth Keyboard, Android will now show Mouse Cursor on TV instead of the TV-Remote !
 ..thats it.. Tablet Browsers like Firefox show Waterfall on openwebrx!
 
-#######################
 
-Set Squelch on Start by URL:
+
+### Set Squelch on Start by URL by LINK for Noise Surpressing on Start ###
 
 http://websdr-ip.local/?#sql=40
 
-#######################
+### openwebrx hangs on Start for 20-30 Sec after OS Upgrade ###
 
-OpenwebRX hang up the Webinterface on Start 20-30 Seconds like a Loop!! then running normal !! Pause on Switch from LSB MODE to USB MODE? 
+OpenwebRX hang up the Webinterface on Start 20-30 Seconds like a Loop!! 
+
+Then running normal !! Pause on Switch from LSB MODE to USB MODE? 
 
 Then install manual by dpkg -i fftw*.deb ALL fftw3 (fftw3-devel) Packages of 3.3.5 !! as DOWNGRADE on Version 3.3.8 DEFAULT ENABLED CPU-Benchmark-TEST hangs up to 60 seconds on ALL ARM CPU DEVICES (affected RASPIAN Buster, ARMBIAN Buster,Ubuntu 18.XX on Orangepi-zero, Orangepi-H3, Odroid XU,N2,C2 also!!)
 
@@ -88,9 +87,11 @@ I the Bug is now fixed you can set the fftw3 Packages to hold (prevent upgrade)
 
 sudo aptitude hold libfftw3-*
 
-#######################
+### Reduce openwebrx Server CPU LOAD ###
 
-OpebwebRX reduce CPU Load on small ARM Boards like orangepi-zero? and get a clean smooth waterfall..
+OpebwebRX reduce CPU Load on small ARM Boards like orangepi-zero? 
+
+Get a clean smooth waterfall.. REDUCE TRAFFIC !!! over 3G/4G
 
 set at config_webrx.py:
 <pre>
@@ -103,14 +104,16 @@ fft_voverlap_factor=0.01  #  0.3 default
 
 Update: 2020-02-30
 
-==== REDUCED CPU LOAD INDEX.WRX ====
+### REDUCED Client CPU LOAD by INDEX.WRX ###
 
-If your want REDUCE the CPU IO LOAD for older Laptops or PCs edit the index.wrx and remove the LOG-Panel, Status Panel and the S-Meter-Bar use this custumozed index.wrx (saves 60% CPU Load on older PCs:
+If your want REDUCE the CPU IO LOAD for older Laptops or PCs edit the index.wrx:
+
+- and remove the LOG-Panel
+- Status Panel and the S-Meter-Bar use this custumozed index.wrx (saves 60% CPU Load on older PCs:
 
 [index-wrx-reduced-cpu-load](https://github.com/linuxonlinehelp/openwebrx-workarounds-bugfixes/blob/master/index-wrx-reduced-cpu-load.wrx)
 
-Please report me bugs!!
-
+Please report me problems / bugs for free!!
 
 
 ## OpenWebRX - Copy of Info Page of Andras ##

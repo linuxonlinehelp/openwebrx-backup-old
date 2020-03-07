@@ -54,8 +54,7 @@ Android TV, FireSticks, ...Browsers have broken Javascripts Support
 Workaround (no Root required):
 
 - install Firefox of Tablet Version !! by Sideload install (.apk) 
-- IF on a Firestick or Android TV Box there is no Mouse with a Tablet Browser App!! 
-- Buy a Bluetooth Keyboard, Android will now show Mouse Cursor on TV instead of the TV-Remote !
+- If on a Firestick or Android TV Box no Mouse Icon with a Tablet Browser shown then buy a Android Bluetooth Keyboard, Android will now show Mouse Circle for Cursor on TV instead of the TV-Remote Mouse !
 ..thats it.. Tablet Browsers like Firefox show Waterfall on openwebrx!
 
 

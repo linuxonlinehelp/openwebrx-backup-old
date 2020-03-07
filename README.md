@@ -44,29 +44,16 @@ Channels: 80 Meter, 70cm Meter, ADS-B Flight Radar, 23cm QO100 Oscar 100 Satelli
 
 <hr/>
 
-### My Workarounds - My Changes ###
 
-Some Workarounds i did to reduce CPU IO (100% to 30% ) and reduce Traffic !! 
-
-on 
-- old PCs
-- Laptops
-- Tablets 
-- Smartphones
-- SmartTV with Amazon Firestick 1+2 + Firefox Tablet Version!
-
-cause most people use older Hardware to save Money! (Reuse)
-
-
-### Waterfall on SmartTV not displayed ###
+### Waterfall on SmartTV Browser not displayed ###
 
 (NO Mouse Frequency Control on Openwebrx)
 
-Android TV, FireSticks, ...
+Android TV, FireSticks, ...Browsers have broken Javascripts Support
 
 Workaround (no Root required):
 
-- install Firefox of Tablet Version by Sideload (.apk)
+- install Firefox of Tablet Version !! by Sideload install (.apk) 
 - IF on a Firestick or Android TV Box there is no Mouse with a Tablet Browser App!! 
 - Buy a Bluetooth Keyboard, Android will now show Mouse Cursor on TV instead of the TV-Remote !
 ..thats it.. Tablet Browsers like Firefox show Waterfall on openwebrx!
@@ -114,7 +101,20 @@ fft_voverlap_factor=0.01  #  0.3 default
 
 Update: 2020-02-30
 
-### REDUCED Client CPU LOAD by INDEX.WRX ###
+### My Workarounds - My Changes ###
+
+Some Workarounds i did to reduce CPU IO (100% to 30% ) and reduce Traffic !! 
+
+on 
+- old PCs
+- Laptops
+- Tablets 
+- Smartphones
+- SmartTV with Amazon Firestick 1+2 + Firefox Tablet Version!
+
+cause most people use older Hardware to save Money! (Reuse)
+
+### Reduced Client CPU LOAD by INDEX.WRX ###
 
 If your want REDUCE the CPU IO LOAD for older Laptops or PCs edit the index.wrx:
 

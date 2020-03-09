@@ -132,6 +132,42 @@ Please report me problems / bugs for free!!
 
 <hr/>
 
+### Alsa Sound Mixer Noise Blank with Equalizer QASMIXER  ###
+create .asoundrc at Client Users Home (Laptop with Alsa)
+and install: apt-get install qasmixer
+
+.asoundrc
+<pre>
+pcm.snd_card {
+        type hw
+        card 0
+        device 0
+}
+
+ctl.snd_card {
+        type hw
+        card 0
+        device 0
+}
+
+ctl.equal {
+  type equal
+}
+
+pcm.plugequal {
+  type equal
+  slave.pcm "plughw:0,0"
+}
+
+pcm.!default {
+  type plug
+  slave.pcm plugequal
+}
+</pre>
+
+
+
+
 ### OpenWebRX - Copy of Info Page of Andras ###
 
 OpenWebRX is a multi-user SDR receiver software with a web interface.

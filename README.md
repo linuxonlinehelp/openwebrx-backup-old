@@ -133,10 +133,12 @@ Please report me problems / bugs for free!!
 <hr/>
 
 ### Alsa Sound Mixer Noise Blank with Equalizer QASMIXER  ###
-create .asoundrc at Client Users Home (Laptop with Alsa)
-and install: apt-get install qasmixer
+create .asoundrc at Client Users Home (Laptop with Alsa) and install: apt-get install qasmixer
+the .asoundrc is NOT pre-created on Debian/Ubuntu based Systems!
 
-.asoundrc
+![Mixer](https://pbs.twimg.com/media/ESrru15XkAAMD57?format=jpg&name=large)
+
+/home/username/.asoundrc
 <pre>
 pcm.snd_card {
         type hw

@@ -21,10 +21,10 @@ But:
 ### Info Differences between other Versions like JKetterl ###
 
 On Github are some forked / redesigned versions on openwebrx with automatic Receiver-Dongle detection. 
-But the other CAN NOT setup 4 Dongles on  the SAME Server! without Knowledge on Docker or qemu Containers!
+But the other CAN'T setup 4 Dongles on  the SAME Server! without Knowledge on Docker or qemu Containers!
 
 With this Version you can run 4 or more INSTANCES / Services on different PORTS! 
-Copy the openwebrerx into different directory's (radio1,radio2,radio3...) 
+Copy the openwebrrx into different directory's (radio1,radio2,radio3...) 
 and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
 
 Sample: config_webrx.py

@@ -18,7 +18,7 @@ But:
 - you can install it inside a virtual server (qemu) to run it inside secure container!ub
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
 
-### Info Differences between other Versions (like JKetterl)###
+### Info Differences between other Versions like JKetterl ###
 
 On Github are some forked / redesigned versions on openwebrx with automatic
 Receiver-Dongle detection. But the other CAN NOT setup 4 Dongles on  the SAME Server!

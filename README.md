@@ -15,8 +15,32 @@ The Python 2.7 will be not supported after 12/2019
 But:
 - you can go use it on LOCALNET
 - use it as subdir protected by BASIC AUTH of Apache
-- you can install it inside a virtual server (qemu) to run it inside secure container!
+- you can install it inside a virtual server (qemu) to run it inside secure container!ub
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
+
+### Info Differences between other Versions (like JKetterl)###
+
+On Github are some forked / redesigned versions on openwebrx with automatic
+Receiver-Dongle detection. But the other CAN NOT setup 4 Dongles on  the SAME Server!
+With this Version you can run 4 or more INSTANCES on different PORTS, copy the openwebrerx into
+different directory's (rx2,rx2,rx3...) at the config file config_webrx.py of them set at .. line rtl_tcp "-d 0" 
+where -d 0 = device number zero!
+
+- Port 8901 = Dongle 70cm
+- Port 8902 = Dongle 80M
+- Port 8903 = Dongle 40M
+...
+
+Sample: config_webrx.py
+
+# Port at Top Header
+web_port=8902
+
+# >> RTL-SDR via rtl_sdr
+start_rtl_command="rtl_sdr -s {samp_rate} -d 0 -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
+format_conversion="csdr convert_u8_f"
+
+
 
 ### Software Licensing  ###
 

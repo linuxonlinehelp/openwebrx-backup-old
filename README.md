@@ -24,7 +24,7 @@ On Github are some forked / redesigned versions on openwebrx with automatic Rece
 But the other CAN'T setup 4 Dongles on  the SAME Server! without Knowledge on Docker or qemu Containers!
 
 With this Version you can run 4 or more INSTANCES / Services on different PORTS! 
-Copy the openwebrrx into different directory's (radio1,radio2,radio3...) 
+Copy the openwebrx into different directory's (radio1,radio2,radio3...) 
 and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
 
 Sample: config_webrx.py device number = "-d 0 " read rtl_sdr manual!

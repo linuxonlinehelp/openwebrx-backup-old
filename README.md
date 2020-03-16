@@ -27,7 +27,7 @@ With this Version you can run 4 or more INSTANCES / Services on different PORTS!
 Copy the openwebrrx into different directory's (radio1,radio2,radio3...) 
 and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
 
-Sample: config_webrx.py
+Sample: config_webrx.py device number = "-d 0 " read rtl_sdr manual!
 
 #### >>> RTL-SDR via rtl_sdr ####
 start_rtl_command="rtl_sdr -s {samp_rate} -d 0 -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)

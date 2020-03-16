@@ -20,27 +20,29 @@ But:
 
 ### Info Differences between other Versions like JKetterl ###
 
-On Github are some forked / redesigned versions on openwebrx with automatic
-Receiver-Dongle detection. But the other CAN NOT setup 4 Dongles on  the SAME Server!
-With this Version you can run 4 or more INSTANCES on different PORTS, copy the openwebrerx into
-different directory's (rx2,rx2,rx3...) at the config file config_webrx.py of them set at .. line rtl_tcp "-d 0" 
-where -d 0 = device number zero!
+On Github are some forked / redesigned versions on openwebrx with automatic Receiver-Dongle detection. 
+But the other CAN NOT setup 4 Dongles on  the SAME Server! without Knowledge on Docker or qemu Containers!
+
+With this Version you can run 4 or more INSTANCES / Services on different PORTS! 
+Copy the openwebrerx into different directory's (radio1,radio2,radio3...) 
+and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
+
+Sample: config_webrx.py
+
+#### >>> RTL-SDR via rtl_sdr ####
+start_rtl_command="rtl_sdr -s {samp_rate} -d 0 -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
+format_conversion="csdr convert_u8_f"
+
+
+#### >>> Port at Top Header ####
+web_port=8902
 
 - Port 8901 = Dongle 70cm
 - Port 8902 = Dongle 80M
 - Port 8903 = Dongle 40M
 ...
 
-Sample: config_webrx.py
-
-# Port at Top Header
-web_port=8902
-
-# >> RTL-SDR via rtl_sdr
-start_rtl_command="rtl_sdr -s {samp_rate} -d 0 -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
-format_conversion="csdr convert_u8_f"
-
-
+I prefer easy to handlings!
 
 ### Software Licensing  ###
 

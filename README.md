@@ -1,12 +1,16 @@
 ## Major Info ##
 
-This is a Backup Copy of original Version as contribute to Andras Retzler! 
+This is ONLY a !! Backup Copy !! of original Version as contribute to Andras Retzler! 
 
 All "Hams" and DX Users are very thankful to his hard development work! 
 
 Please SUPPORT his Work by a small donation on "http://sdr.hu" 
 
 1000 Thanks Andras!
+
+The Workarounds only for SMALL Setup's who have Problems on CPU LOAD! (like Orange-PI-ZERO)
+I dont discuss online about my published Changes / other Forks.
+Andras really made a great Job!
 
 ### Remark Debian + Python 2.7 ###
 

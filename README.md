@@ -9,7 +9,7 @@ Please SUPPORT his Work by a small donation on "http://sdr.hu"
 1000 Thanks Andras!
 
 The Workarounds i published are ONLY for SMALL Setup's where Problems on CPU LOAD appears! (like Orange-PI-ZERO/old PC's)
-I dont discuss online about my published Changes / other Forks.
+I dont discuss online about my published changes / other about Forks. I prefer easy to USE handlings! or .. LET's keep SIMPLE! Cause IAM NOT a HAM! ..don't wanne be..
 Andras really made a great Job!
 
 ### Remark Debian + Python 2.7 ###
@@ -43,7 +43,7 @@ web_port=8902
 - Port 8903 = Dongle 40M
 ...
 
-I prefer easy to handlings!
+
 
 ### Software Licensing  ###
 

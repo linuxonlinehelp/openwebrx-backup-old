@@ -1,6 +1,6 @@
 ## Major Info ##
 
-This is ONLY a !! Backup Copy !! of original Version as contribute to Andras Retzler! 
+This is ONLY a !! Backup Copy to prevent LOST Source CODE !! of original Version as contribute to Andras Retzler! 
 
 All "Hams" and DX Users are very thankful to his hard development work! 
 

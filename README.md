@@ -18,11 +18,7 @@ But:
 - you can install it inside a virtual server (qemu) to run it inside secure container!ub
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
 
-### Info Differences between other Versions  ###
 
-On Github are some forked / redesigned versions on openwebrx, but the other Version can't be setup EASY 
-setup 4 Dongles on  the SAME Server. To this many users reported high CPU Loads. I prefer to reduce the options
-and backgrounding Processes to save battery on mobile Setups
 
 With this Version you can run 4 or more INSTANCES / Services on different PORTS! 
 Copy the openwebrx into different directory's (radio1,radio2,radio3...) 

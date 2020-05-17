@@ -8,7 +8,7 @@ Please SUPPORT his Work by a small donation on "http://sdr.hu"
 
 1000 Thanks Andras!
 
-The Workarounds only for SMALL Setup's where Problems on CPU LOAD appears! (like Orange-PI-ZERO)
+The Workarounds i published are ONLY for SMALL Setup's where Problems on CPU LOAD appears! (like Orange-PI-ZERO/old PC's)
 I dont discuss online about my published Changes / other Forks.
 Andras really made a great Job!
 

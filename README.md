@@ -9,8 +9,8 @@ Please SUPPORT his Work by a small donation on "http://sdr.hu"
 1000 Thanks Andras!
 
 The Workarounds i published are ONLY for SMALL Setup's where Problems on CPU LOAD appears! (like Orange-PI-ZERO/old PC's)
-I dont discuss online about my published changes / other about Forks. I prefer easy to USE handlings! or .. LET's keep SIMPLE! Cause IAM NOT a HAM! ..don't wanne be..
-Andras really made a great Job!
+I prefer .. LET's keep SIMPLE and REDUCE WIFI/NETWORK BANDWITH/IO + Energy/LOAD for Mobile Connections like GSM/LTE to REDUCE Costs!
+
 
 ### Remark Debian + Python 2.7 ###
 
@@ -21,7 +21,8 @@ But:
 - use it as subdir protected by BASIC AUTH of Apache
 - you can install it inside a virtual server (qemu) to run it inside secure container!ub
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
-
+BEST:
+- setup a HOSTAPD+DNSMASQ with OPENWEBRX to get DIRECT WIFI Connect to the SDR-SERVER! WITHOUT a ROUTER/Internet like Home Station (isolated access/ i used a orange-pi-zero-512MB + rtlsdr-v3 + Antenna inside a 5cmx30cm Tube)
 
 
 With this Version you can run 4 or more INSTANCES / Services on different PORTS! 

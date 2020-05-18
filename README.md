@@ -25,10 +25,9 @@ But:
 BEST:
 - setup a HOSTAPD+DNSMASQ with OPENWEBRX to get DIRECT WIFI Connect to the SDR-SERVER! WITHOUT a ROUTER/Internet like Home Station (isolated access/ i used a orange-pi-zero-512MB + rtlsdr-v3 + Antenna inside a 5cmx30cm Tube)
 
+Advantages of the old Version:
 
-With this Version you can run 4 or more INSTANCES / Services on different PORTS! 
-Copy the openwebrx into different directory's (radio1,radio2,radio3...) 
-and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
+- With this Version you can run 4 or more INSTANCES / Services on different PORTS! Copy the openwebrx into different directory's (radio1,radio2,radio3...) and at the config file config_webrx.py of them set the DEVICE NUMBER at line:
 
 Sample: config_webrx.py device number = "-d 0 " read rtl_sdr manual!
 

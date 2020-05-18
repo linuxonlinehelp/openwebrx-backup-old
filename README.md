@@ -11,6 +11,7 @@ Please SUPPORT his Work by a small donation on "http://sdr.hu"
 The Workarounds i published are ONLY for SMALL Setup's where Problems on CPU LOAD appears! (like Orange-PI-ZERO/old PC's)
 I prefer .. LET's keep SIMPLE and REDUCE WIFI/NETWORK BANDWITH/IO + Energy/LOAD for Mobile Connections like GSM/LTE to REDUCE Costs!
 
+""Workarounds ONLY for the ORIGINAL VERSION of Andras Retzler!""
 
 ### Remark Debian + Python 2.7 ###
 

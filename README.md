@@ -21,6 +21,7 @@ But:
 - use it as subdir protected by BASIC AUTH of Apache
 - you can install it inside a virtual server (qemu) to run it inside secure container!ub
 - qemu allow hosting of outdated Software on a current Host OS (Host Debian 10/Guest Debian 8)
+
 BEST:
 - setup a HOSTAPD+DNSMASQ with OPENWEBRX to get DIRECT WIFI Connect to the SDR-SERVER! WITHOUT a ROUTER/Internet like Home Station (isolated access/ i used a orange-pi-zero-512MB + rtlsdr-v3 + Antenna inside a 5cmx30cm Tube)
 
